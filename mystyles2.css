@@ -1,0 +1,106 @@
+nav{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0
+}
+nav ul li{
+    font-size: x-large;
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration:none ;
+}
+nav ul li A:hover{
+    text-decoration: underline;
+}
+section{
+    padding: 20px;
+}
+.ccolor{
+    color: rgb(154, 227, 249);
+}
+.sri,ul,a{
+    color: #e30b0b;
+}
+.a{
+    color: black;
+    font-weight: 900;
+}
+.webcolor,webfont{
+    color: #e6dada;
+}
+.font{
+color: #e30b0b;
+}
+.mainbody{
+  background-image: url(ather2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+footer{
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        background:#2858de;
+        color: white;
+
+}
+section{
+    color:rgb(247, 36, 9);
+}
+.new{
+    color: rgb(252, 14, 14);
+}
+.gan{
+    color: rgb(251, 245, 54);
+}
+.webfont{
+    color: rgb(207, 189, 206);
+}
+.rise{
+    color: rgb(242, 235, 242);
+}
+.lin{
+    color: rgb(227, 234, 7);
+}
+.rise1{
+    color: rgb(157, 208, 231);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111111;
+    color: rgb(239, 230, 230);
+    text-align: center;
+  }
+
